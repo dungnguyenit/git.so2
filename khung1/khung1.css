@@ -1,0 +1,99 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.sum{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: #f0ea4f;
+}
+.top{
+    width: 100%;
+    height: 30px;
+    background-color:#E92529;
+    padding-top: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background:#f44ed7;
+    margin: 0px auto;
+    
+}
+ul.menu-sub > li{ 
+    width: 14.285%;
+
+    list-style: none; /*loại bỏ chấm đen */
+    float: left; /*chuyển thẻ menu sang hàng ngang*/
+}
+ul.menu-sub > li > a{
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    color: beige;
+    padding: 0px 15px 0px 15px;
+}
+ul.menu-sub > li > a:hover {
+    background :orangered;
+    color: azure;
+
+}
+ul.sub{
+  
+    background: #f44ed7;
+    min-height: 200px;
+    display: none;
+}
+ul.sub li{
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    color: beige;
+    border-top: 1px;  
+}
+ul.sub li a {
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    color: beige;
+    border-top: 1px solid #ccc; /* cách top bởi dấu gạch */
+}
+ul.sub li a:hover {
+    background :orangered;
+    color: azure;
+}
+ul.menu-sub > li:hover ul.sub{
+    display: block;
+}
+.left{
+	width: 150px;
+	height: 300px; 
+	background-color: aqua;
+	float: left;
+}
+.center{
+	width: 300px;
+	height: 300px; 
+	background-color:antiquewhite;
+	float:left;
+}
+.right{
+	width: 150px;
+	height: 300px; 
+	background-color: aqua;
+	float:right;
+}
+.clear{clear: both;}
+.botton{
+	width: 100%;
+	height: 30px;
+	background: #E92529;}
+
